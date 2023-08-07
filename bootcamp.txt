@@ -1,0 +1,14 @@
+Frontend tarafında:
+	- HTML5
+	- CSS3
+	- Responsive Design (RD)
+	- Bootstrap
+	- JavaScript
+	- JQuery (eski bir teknoloji fakat hala kullanılıyor)
+	- React (Spring Boot anlatırken proje üzerinde anlatılacak)
+	- Sıfırdan bir web sitesi
+
+Backend tarafında:
+	- Java Standart Edition
+	- Spring Boot
+	- Docker
