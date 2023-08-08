@@ -14,67 +14,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./form.css">
 </head>
 
 <body>
+    <div class="container_data">
+        <h1>Üye Kayıt Formu</h1>
 
-    <h1>Üye Kayıt Formu</h1>
-
-    <form action="#!" method="get" autocomplete="on">
-        <div class="input-container">
-            <i class="fa-solid fa-user icon_data"></i>
-            <label for="adi">Adınız:</label>
-            <input 
-                type="text" 
-                id="adi" 
-                name="adi" 
-                placeholder="Lütfen adınızı giriniz." 
-                title="Adınızı giriniz."
-                autofocus required
-                class="input_data">
-        </div>
-        <div class="input-container">
-            <i class="fa-solid fa-user icon_data"></i>
-            <label for="soyadi">Soyadınız:</label>
-            <input 
-                type="text" 
-                id="soyadi" 
-                name="soyadi" 
-                placeholder="Lütfen soyadınızı giriniz."
-                title="Soyadınızı giriniz."
-                required
-                class="input_data">
-        </div>
-        <div class="input-container">
-            <i class="fa-solid fa-envelope icon_data"></i>
-            <label for="email">Email:</label>
-            <input 
-                type="email" 
-                id="email" 
-                name="email" 
-                placeholder="Lütfen emailinizi giriniz."
-                title="Emailinizi giriniz." 
-                required
-                class="input_data">
-        </div>
-        <div class="input-container">
-            <i class="fa-solid fa-lock icon_data"></i>
-            <label for="password">Şifre:</label>
-            <input 
-                type="password" 
-                id="password" 
-                name="password" 
-                placeholder="Lütfen şifrenizi giriniz."
-                title="Şifrenizi giriniz." 
-                required
-                class="input_data">
-        </div>
-        <div class="input-container">
-            <input type="reset" id="reset" name="reset" title="Temizle" value="Temizle">
-            <button type="submit" id="submit" name="submit">Gönder</button>
-        </div>
-    </form>
-
+        <form action="#!" method="get" autocomplete="on">
+            <div class="form_data">
+                <i class="fa-solid fa-user icon_data"></i>
+                <!-- <label for="adi">Adınız:</label> -->
+                <input type="text" id="adi" name="adi" placeholder="Lütfen adınızı giriniz." title="Adınızı giriniz."
+                    autofocus required class="input_data">
+            </div>
+            <div class="form_data">
+                <i class="fa-solid fa-user icon_data"></i>
+                <!-- <label for="soyadi">Soyadınız:</label> -->
+                <input type="text" id="soyadi" name="soyadi" placeholder="Lütfen soyadınızı giriniz."
+                    title="Soyadınızı giriniz." required class="input_data">
+            </div>
+            <div class="form_data">
+                <i class="fa-solid fa-envelope icon_data"></i>
+                <!-- <label for="email">Email:</label> -->
+                <input type="email" id="email" name="email" placeholder="Lütfen emailinizi giriniz."
+                    title="Emailinizi giriniz." required class="input_data">
+            </div>
+            <div class="form_data">
+                <i class="fa-solid fa-lock icon_data"></i>
+                <!-- <label for="password">Şifre:</label> -->
+                <input type="password" id="password" name="password" placeholder="Lütfen şifrenizi giriniz."
+                    title="Şifrenizi giriniz." required class="input_data">
+            </div>
+            <div class="form_data" id="button_group">
+                <input type="reset" id="reset" name="reset" title="Temizle" value="Temizle">
+                <button type="submit" id="submit" name="submit">Gönder</button>
+            </div>
+        </form>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
