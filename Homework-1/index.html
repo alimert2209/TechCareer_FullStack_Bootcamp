@@ -2,37 +2,121 @@
 <html lang="en">
 
 <head>
+    <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <!-- FONT AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="general-box">
-        <div>
-            <h1>Register</h1>
-        </div>
+    <div class="container col-4 mt-5">
+        <div class="row justify-content-center test bg-light rounded-3 py-4">
 
-        <div>
-            <h6>Fill out this form</h6>
+            <!-- HEADINGS START -->
+            <div class=" text-center mb-4">
+                <header class="h2 my-2">
+                    REGISTER
+                </header>
+                <p>Fill out this form</p>
+            </div>
+            <!-- HEADINGS END -->
+
+            <!-- FIRST NAME START-->
+            <div class="col-5 ">
+                <input class="form-control p-3 rounded-1" type="text" placeholder="First Name" aria-label="first_name"
+                    required autofocus>
+            </div>
+            <!-- FIRST NAME END -->
+
+            <!-- LAST NAME START -->
+            <div class="col-5">
+                <input class="form-control p-3 rounded-1" type="text" placeholder="Last Name" aria-label="first_name"
+                    required>
+            </div>
+            <!-- LAST NAME END -->
+
+            <!-- USERNAME START -->
+            <div class="col-10 mt-3">
+                <div class="input-group">
+                    <span class="input-group-text ">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input class="form-control p-3" type="text" placeholder="Username" aria-label="username" required>
+                </div>
+            </div>
+            <!-- USERNAME END -->
+
+            <!-- EMAIL START -->
+            <div class="col-10 mt-3">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input class="form-control p-3" type="text" placeholder="E-mail Adress" aria-label="email" required>
+                </div>
+            </div>
+            <!-- EMAIL END -->
+
+            <!-- PASSWORD START-->
+            <div class="col-10 mt-3">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <i class="fa-solid fa-key"></i>
+                    </span>
+                    <input class="form-control p-3" type="password" placeholder="Password" aria-label="password"
+                        required>
+                </div>
+            </div>
+            <!-- PASSWORD END -->
+
+            <!-- CHECKBOX START -->
+            <div class="col-10 mt-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        I agree with the <b>Terms and Conditions</b> and the <b>Privacy Policy.</b>
+                    </label>
+                </div>
+            </div>
+            <!-- CHECKBOX END -->
+
+            <!-- BUTTON START -->
+            <div class="col-10 my-4 d-grid">
+                <button class="btn btn-primary p-3 rounded-1" type="submit">
+                    <span class="fs-4">
+                        Create Account
+                    </span>
+                </button>
+            </div>
+            <!-- BUTTON END -->
+
         </div>
     </div>
 
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
